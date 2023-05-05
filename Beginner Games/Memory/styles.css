@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    text-shadow: #fff 0px 0px 15px;
+    background-color: #2596be;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+
+.level-hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+h3 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    padding-right: 20px;
+}
+
+img {
+    cursor: pointer;
+}
+
+
+
+.scorecard {
+    border: 4px solid black;
+    border-radius: 5px;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 5px 5px 10px, 5px 5px 5px;
+}
+
+#finish-level {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 5px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all .5s ease-in-out;
+}
+
+button:hover {
+    background-color: gray;
+    padding: 6px;
+    font-size: 1.1rem;
+}
+
+#result {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+#grid {
+    width: 824px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#grid img {
+    margin: 3px;
+    box-shadow: 2px 2px 5px black;
+}
+

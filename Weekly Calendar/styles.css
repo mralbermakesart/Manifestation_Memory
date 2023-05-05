@@ -1,0 +1,42 @@
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  /* Style the table headers */
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+  }
+
+  /* Style the table data cells */
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  /* Style the first row of the table */
+  tr:first-child {
+    font-weight: bold;
+  }
+
+  /* Style the first column of the table */
+  /* td:first-child {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  } */
+
+  /* Style the current day cell */
+  td.current-day {
+    background-color: yellow;
+  }
+
+
+  .multi-line {
+    white-space: pre-wrap;
+  }
